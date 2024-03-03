@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const base_url = "http://localhost:5175/api";
+const base_url = "https://evenizer-production.up.railway.app/api";
 
 export const addBlog = async (formData) => {
   try {
@@ -17,7 +17,7 @@ export const getBlogs = async () => {
 export const postImage = async (imageData) => {
   try {
     const response = await axios.post(
-      "http://localhost:5175/api/blogs/add-blog",
+      "https://evenizer-production.up.railway.app/api/blogs/add-blog",
       imageData
     );
     return response.data;

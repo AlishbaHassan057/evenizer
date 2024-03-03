@@ -3,7 +3,7 @@ import axios from "axios";
 export const addEvent = async (eventData) => {
   try {
     const response = await axios.post(
-      "http://localhost:5175/api/events/add-event",
+      "https://evenizer-production.up.railway.app/api/events/add-event",
       eventData
     );
     return response.data;
@@ -14,7 +14,7 @@ export const addEvent = async (eventData) => {
 // Get
 export const getEvents = async () => {
   const response = await axios.get(
-    "http://localhost:5175/api/events/get-event"
+    "https://evenizer-production.up.railway.app/api/events/get-event"
   );
   return response.data;
 };
@@ -22,7 +22,7 @@ export const getEvents = async () => {
 export const eventImage = async (imageData) => {
   try {
     const response = await axios.post(
-      "http://localhost:5175/api/events/add-event",
+      "https://evenizer-production.up.railway.app/api/events/add-event",
       imageData
     );
     return response.data;

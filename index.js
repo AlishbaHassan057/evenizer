@@ -11,6 +11,8 @@ connect();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+app.use(express.static("public"));
+
 app.use("/api/users/", require("./routes/userRoutes"));
 app.use("/api/blogs/", require("./routes/blogRoute"));
 app.use("/api/events/", require("./routes/eventRoute"));

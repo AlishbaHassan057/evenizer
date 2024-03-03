@@ -1,5 +1,5 @@
 import axios from "axios";
-const base_url = "http://localhost:5175/api/admin";
+const base_url = "https://evenizer-production.up.railway.app/api/admin";
 
 // register
 const AdminsignUP = async (userData) => {

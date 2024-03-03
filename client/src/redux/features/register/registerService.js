@@ -3,7 +3,7 @@ import axios from "axios";
 export const addRegisters = async (formData) => {
   try {
     const response = await axios.post(
-      "http://localhost:5175/api/register/add-register",
+      "https://evenizer-production.up.railway.app/api/register/add-register",
       formData
     );
     return response.data;
@@ -13,7 +13,7 @@ export const addRegisters = async (formData) => {
 };
 export const getRegisters = async () => {
   const response = await axios.get(
-    "http://localhost:5175/api/register/get-register"
+    "https://evenizer-production.up.railway.app/api/register/get-register"
   );
   return response.data;
 };
