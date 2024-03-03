@@ -1,0 +1,77 @@
+.background-container {
+  background-image: url("https://templatekit.jegtheme.com/evenizer/wp-content/uploads/sites/146/2021/08/party-young-people-group-dancing-in-night-club-e1630318883825.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* SubUpcoming.css */
+.sub-upcoming {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.prices {
+  color: var(--root-color);
+}
+
+.image-container {
+  flex: 0 0 auto; /* Prevent image from growing */
+  margin-right: 20px;
+}
+
+.event-details {
+  flex: 1; /* Allow event details to grow */
+}
+
+/* Add any additional styling as needed */
+
+/* Upcoming.css */
+.upcoming-container {
+  background-color: #f5f5f5; /* Light gray color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.upcoming-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items horizontally */
+  gap: 20px; /* Add gap between items */
+}
+/* SubUpcoming.css */
+.subb-upcoming {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the component horizontally */
+  width: 70%; /* Set the width to 70% of the container */
+  margin: 0 auto; /* Center the component horizontally */
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.imagess-container {
+  flex: 0 0 150px;
+}
+
+.event-details {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.event-image {
+  height: 50 vh; /* Maintain the aspect ratio */
+  width: 350px !important; /* Set maximum width to its original size */
+
+  object-fit: cover;
+}
+
+.extra {
+  margin-top: 3rem !important;
+}

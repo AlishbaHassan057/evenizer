@@ -1,0 +1,53 @@
+:root {
+  --root-color: #da22ff;
+}
+.services {
+  color: var(--root-color);
+}
+body {
+  font-family: "Manrope", "sans-serif";
+}
+.about-card {
+  height: 320px;
+  width: 330px !important;
+  border: none !important;
+  position: relative;
+  background-color: #f3f1f5;
+}
+.unstyled-link {
+  text-decoration: none;
+  color: var(--root-color);
+  font-weight: bold;
+}
+.our-services {
+  color: var(--root-color);
+}
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .about-card {
+    width: 300px !important;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1180px) {
+  .about-card {
+    width: 250px !important;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .about-card {
+    width: 300px !important;
+    margin-left: 4rem;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  .about-card {
+    width: 450px !important;
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  .about-card {
+    width: 100%;
+    margin-left: 5rem !important;
+  }
+}

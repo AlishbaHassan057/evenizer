@@ -1,0 +1,20 @@
+.background-container {
+    background-image: url("https://templatekit.jegtheme.com/evenizer/wp-content/uploads/sites/146/2021/08/people-partying-at-a-concert-1-e1630317841777.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+
+.about-us-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 2rem !important
+}

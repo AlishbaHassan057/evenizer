@@ -1,0 +1,15 @@
+.services-container {
+    background-image: url("https://templatekit.jegtheme.com/evenizer/wp-content/uploads/sites/146/2021/08/music-festival-1-e1630317944394.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem !important; 
+    font-weight: bold !important;
+    text-align: center;
+}

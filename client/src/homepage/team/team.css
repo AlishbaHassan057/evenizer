@@ -1,0 +1,23 @@
+:root {
+  --root-color: #DA22FF;
+}
+.t{
+    color: var(--root-color);
+}
+
+.team-img{
+    position: relative;
+}
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    padding: 0.1rem 4rem;
+}
+.name {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+body{
+  font-family: 'Manrope' , 'sans-serif' ;
+}

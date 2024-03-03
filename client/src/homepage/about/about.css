@@ -1,0 +1,65 @@
+body{
+  font-family: 'Manrope' , 'sans-serif' ;
+}
+.btn {
+    letter-spacing: 2px;
+    padding: 0.6rem 1.9rem !important;
+  }
+
+
+:root {
+  --root-color: #DA22FF;
+}
+.b{
+  color: var(--root-color);
+  font-weight: bold;
+}
+
+.listed{
+   list-style-type: none
+}
+.listed {
+  list-style: none;
+  padding: 0;
+}
+
+.listed li {
+  margin-bottom: 10px; 
+}
+
+.list-item-text {
+  margin-left: 18px; 
+}
+
+.box{
+  background: #F3F1F5 !important;
+
+
+}
+.btn {
+    background: linear-gradient(to right top, #A52FF1,#A52FF1, #BB2AF7, #CC26FC, #D025FC) !important;
+color: white; 
+font-size: 14.5px !important;
+}
+ .image-container {
+  position: relative;
+
+}
+
+.background-image {
+  width: 75% !important;
+  height: 80vh !important;
+    left: 0;
+      position: absolute;
+  object-fit: cover; 
+}
+
+.overlay-image {
+  position: absolute;
+  top:40px;
+  right: 0;
+
+  width: 70%;
+  height: 70vh;
+}
+

@@ -1,0 +1,23 @@
+.link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  margin-top: 5rem !important;
+}
+
+.link:hover {
+  color: purple;
+}
+
+.sta {
+  margin-left: 25rem !important;
+}
+.toppy {
+  background: black;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.minis {
+  margin-top: 12rem !important;
+}

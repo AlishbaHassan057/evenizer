@@ -1,0 +1,64 @@
+/* table.css */
+
+.regbtn {
+  width: 100% !important;
+  margin-top: 0 !important;
+}
+
+.etable {
+  width: 90% !important;
+  margin-top: 4rem !important;
+}
+
+.regi {
+  background-image: url("https://img.freepik.com/premium-photo/3d-rendering-purple-black-abstract-wave-background_167650-2502.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.blur-background {
+  position: relative;
+  background: rgba(15, 15, 15, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* New CSS for the form */
+/* 
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+} */
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+/* Adjust spacing */
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+/* Adjust form check layout */
+.form-check {
+  margin-bottom: 0.5rem;
+}
+.form-check-label {
+  padding: 12px 15px !important;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 290.5px !important;
+  font-weight: bold !important;
+}
+
+.input-field input::placeholder {
+  border: none;
+}

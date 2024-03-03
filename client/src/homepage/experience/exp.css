@@ -1,0 +1,21 @@
+.hp {
+  width: 70% !important;
+  margin: auto !important;
+  margin-top: 0.5rem !important;
+}
+
+.exp-iimagess {
+  background-image: url("https://templatekit.jegtheme.com/evenizer/wp-content/uploads/sites/146/2021/08/people-partying-at-a-concert-e1630316489959.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 35vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: "Manrope", "sans-serif";
+}

@@ -1,0 +1,12 @@
+.background-container {
+  background-image: url("https://templatekit.jegtheme.com/evenizer/wp-content/uploads/sites/146/2021/08/party-young-people-group-dancing-in-night-club-e1630318883825.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}

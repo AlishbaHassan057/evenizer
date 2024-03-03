@@ -1,0 +1,37 @@
+.join-container {
+    position: relative;
+    width: 100% !important;
+}
+
+.join-img {
+    background-image: url("https://www.vmcdn.ca/f/files/guelphtoday/images/stock-images/concert.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.join-head{
+    color: white; 
+}
+
+.card-button {
+  background: linear-gradient(to right, #AB2EF3, #C129F9, #C926FB);
+  color: white;
+  padding: 12px 32px !important;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem !important;
+}
+.j-event{
+  color:#0CECDD ;
+}

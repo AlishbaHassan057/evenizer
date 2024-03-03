@@ -1,0 +1,80 @@
+.wed p {
+  margin-left: 2.5rem !important;
+}
+.wed-head {
+  margin-right: 6rem !important;
+}
+.wed-card {
+  height: 13rem !important;
+  width: 23rem !important;
+  margin-bottom: 20px !important; /* Add margin-bottom to all card sizes */
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+:root {
+  --root-color: #da22ff;
+}
+
+.wedding {
+  color: var(--root-color);
+}
+
+.pasteboard-cont {
+  display: flex; /* Enable Flexbox */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: center; /* Center cards horizontally */
+  width: 80%;
+  margin: auto;
+  gap: 3rem;
+}
+
+@media only screen and (min-width: 531px) and (max-width: 767px) {
+  .wed-card {
+    width: 50% !important;
+  }
+}
+/* 
+@media only screen and (min-width: 768px) {
+  .wed-card {
+    width: 60% !important;
+  }
+} */
+
+@media only screen and (min-width: 900px) and (max-width: 1368px) {
+  .wed-card {
+    width: 100% !important;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .wed-card {
+    width: 100%;
+    margin-left: 30rem !important;
+  }
+}
+/* @media only screen and (min-width: 414px) and (max-width: 896px) {
+  .wed-card {
+    width: 25rem !important;
+    margin-left: 1rem !important;
+  }
+} */
+
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .wed-card {
+    width: 105% !important;
+    margin-bottom: 1rem !important;
+    margin-right: 10rem !important;
+    text-align: start;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  .wed-card {
+    width: 70% !important;
+    margin-bottom: 1rem !important;
+    margin-left: 10rem !important;
+  }
+}

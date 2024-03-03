@@ -1,0 +1,87 @@
+.carrddss {
+  background: #9733ee !important;
+  color: white !important;
+  height: 25rem !important;
+  width: 15rem !important;
+}
+.prices {
+  color: var(--root-color);
+}
+
+.p {
+  color: #fff338;
+}
+.crds {
+  height: 25rem;
+  width: 15rem;
+}
+.gp {
+  margin-top: 5rem !important;
+}
+.dt {
+  margin-top: -3rem !important;
+}
+body {
+  font-family: "Manrope", "sans-serif";
+}
+.card-button {
+  background: linear-gradient(to right, #ab2ef3, #c129f9, #c926fb);
+  color: white;
+  padding: 12px 32px !important;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem !important;
+}
+
+.hpp {
+  color: #c129f9;
+  background: white;
+  padding: 12px 32px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem !important;
+  letter-spacing: 2px;
+}
+.pricing {
+  background: #f3f1f5;
+}
+@media only screen and (max-width: 900px) {
+  .container.d-flex {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center cards horizontally */
+  }
+
+  .col-lg-3 {
+    width: 45%; /* Adjust the width to fit two cards in one row */
+    margin-left: 2.5%; /* Adjust margin for spacing between cards */
+    margin-bottom: 20px; /* Adjust margin bottom between rows */
+    height: auto; /* Let the height be determined by content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; /* Adjust the font size */
+    margin-top: 2rem; /* Set the margin-top value */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .col-lg-3 {
+    width: 100%; /* Display cards in full width for small screens */
+    margin-left: 0; /* Remove left margin */
+    margin-top: 2rem; /* Set the margin-top value */
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .col-lg-3 {
+    width: 45%; /* Adjust the width to fit two cards in one row */
+    margin-left: 2.5%; /* Adjust margin for spacing between cards */
+    margin-top: 2rem; /* Set the margin-top value */
+  }
+}
+
+/* @media only screen and (min-width: 700px) {
+  .ccc {
+    margin-left: 10rem !important; /* Add space between cards */

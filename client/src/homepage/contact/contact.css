@@ -1,0 +1,50 @@
+:root {
+  --root-color: #da22ff;
+}
+.contact-logo {
+  color: var(--root-color);
+  align-self: center;
+}
+.contact-card {
+  height: 38rem;
+  margin-top: -5rem;
+}
+.contact-btn {
+  width: 11rem !important;
+  padding-top: 0.7rem !important;
+  padding-bottom: 0.7rem !important;
+}
+.contact-msg {
+  color: #db45ff;
+}
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
+.contact-container {
+  background-image: url("https://templatekit.jegtheme.com/evenizer/wp-content/uploads/sites/146/2021/08/people-partying-at-a-concert-1-e1630317841777.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+.contact-card input,
+.contact-card textarea {
+  border: 1px solid #ced4da; /* Set border color */
+  border-radius: 0.25rem; /* Set border radius */
+  padding: 0.375rem 0.75rem; /* Set padding */
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus {
+  border-color: #80bdff; /* Set border color on focus */
+  outline: 0; /* Remove default focus outline */
+}
